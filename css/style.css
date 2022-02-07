@@ -6588,6 +6588,52 @@ div.open-overlay {
 .connections {
   background-image: url(../img/net-semente.png);
 }
+.card-blog {
+  display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgb(100 95 136 / 16%);
+    overflow: hidden;
+}
+.card-blog .header {
+  background-color: #F6F5FC;
+}
+
+.card-blog .header .post-thumb {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-blog .header .post-thumb img {
+  width: auto;
+  height: 100%;
+}
+
+.card-blog .body {
+  padding: 20px;
+}
+
+.card-blog .post-title a {
+  color: #645F88;
+  transition: color .2s ease;
+}
+
+.card-blog .post-title a:hover,
+.card-blog .post-title a:focus {
+  color: #0161da;
+  text-decoration: none;
+}
+
+.card-blog .post-date {
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
 /* .first::after {
   content: url("../img/sign-up.png");
 } */
