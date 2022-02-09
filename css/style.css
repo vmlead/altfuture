@@ -2333,6 +2333,7 @@ h3 {
   /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
     margin-bottom: 30px;
+    margin-top: 100px;
   }
 }
 
@@ -5904,6 +5905,9 @@ h6 {
 @media (max-width: 1050px) {
   .main-menu {
       display: none;
+  }
+  .form_subribe input {
+    padding: 0 130px 0 20px!important;
   }
 }
 @media (max-width: 1050px) {
