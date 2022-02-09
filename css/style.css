@@ -6049,7 +6049,7 @@ form {
   position: relative;
 }
 
-.form_subribe button {
+.form_subribe .button {
   background: #0161da;
   border: none;
   color: #fff;
